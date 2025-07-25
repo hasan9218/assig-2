@@ -396,3 +396,287 @@ input:focus {
     padding: 15px 40px;
     cursor: pointer;
 }
+
+/* footer area */
+.footer-area {
+    padding: 50px 0px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 31% 33% 25%;
+    column-gap: 50px;
+}
+
+.footer-logo img {
+    margin-bottom: 20px;
+}
+
+.footer-menu ul {
+    list-style: none;
+}
+
+.footer-menu ul li a {
+    font-size: 1rem;
+    color: #8987A1;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+    color: #000000;
+    transition: .3s;
+}
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-menu ul li {
+    margin-bottom: 30px;
+}
+
+.footer-social img {
+    height: auto;
+    width: 35px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+
+}
+
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 576px) {
+    .container {
+        padding: 0px 30px;
+    }
+
+    /* nav area */
+    .cart-area a {
+        font-size: 2.5rem;
+    }
+
+    .menu-area ul {
+        display: none;
+    }
+
+    /* hero area */
+    .banner-area {
+        padding-bottom: 120px;
+    }
+
+    .banner-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+
+    .banner-text {
+        padding-top: 100px;
+    }
+
+    .banner-text h2 {
+        font-size: 4rem;
+        padding-bottom: 15px;
+    }
+
+    .banner-text p {
+        font-size: 2.8rem;
+    }
+
+    /* our planet area */
+    .planet-head h3 {
+        font-size: 3.8rem;
+    }
+
+    .planet-head p {
+        font-size: 2.5rem;
+    }
+
+    .planet-inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 40px;
+        column-gap: 40px;
+    }
+
+    .planet-text h4 {
+        font-size: 2.5rem;
+    }
+
+    .planet-text span {
+        font-size: 2rem;
+    }
+
+    .planet-text a {
+        font-size: 1.8rem;
+    }
+
+    /* latest deal area */
+
+    .latest-deal-area {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .latest-deal-head h3 {
+        font-size: 4rem;
+    }
+
+    .latest-deal-head p {
+        font-size: 2rem;
+    }
+
+    .latets-deals-item-1 {
+        height: 500px;
+        margin-bottom: 30px;
+        padding-top: 22%;
+    }
+
+    .latets-deals-item-2 {
+        height: 500px;
+        padding-top: 22%;
+        margin-bottom: 30px;
+    }
+
+    .latets-deals-item-3 {
+        height: 500px;
+        padding-top: 20%;
+    }
+
+    .latest-deal-content {
+        display: block;
+    }
+
+    .latest-deal-content h5 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .latest-deal-content a {
+        font-size: 2rem;
+    }
+
+
+    /* planet lover area */
+    .planet-lover-area {
+        padding-top: 90px;
+    }
+
+    .planet-lover-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .planet-lover-text h3 {
+        font-size: 4rem;
+        margin-bottom: 30px;
+    }
+
+    .planet-lover-text h3 span {
+        display: inline;
+    }
+
+    .planet-lover-text ul {
+        padding-left: 60px;
+    }
+
+    .planet-lover-text ul li {
+        font-size: 2.3rem;
+        margin-bottom: 50px;
+    }
+
+    .planet-lover-img img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .badge-img {
+        display: none;
+    }
+
+    /* join area */
+
+    .join-area {
+        display: inline-block;
+    }
+
+    .join-content {
+        padding-left: 156px;
+        padding-right: 156px;
+    }
+
+    .join-content h3 {
+        font-size: 2.9rem;
+    }
+
+    .input-area input {
+        width: 600px;
+        font-size: 1.8rem;
+    }
+
+    .input-area button {
+        font-size: 2rem;
+        padding: 20px 30px;
+    }
+
+
+    /* footer area */
+
+    .footer-area {
+        padding-top: 80px;
+    }
+
+    .footer-logo img {
+        height: 250px;
+        width: auto;
+        margin-bottom: 40px;
+    }
+
+    .footer-content p {
+        font-size: 2rem;
+        width: 60%;
+        margin-bottom: 50px;
+    }
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: none;
+    }
+
+    .footer-menu ul li {
+        margin-bottom: 40px;
+    }
+
+    .footer-menu ul li a {
+        font-size: 2rem;
+    }
+
+    .footer-menu {
+        display: grid;
+        grid-template-columns: none;
+    }
+
+    .footer-social {
+        width: 30%;
+        display: flex;
+        height: 50px;
+        margin-bottom: 50px;
+
+    }
+}
