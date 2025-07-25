@@ -117,3 +117,113 @@ nav {
 .banner-img img {
     display: block;
 }
+/* our planet area */
+.planet-area {
+    padding-bottom: 210px;
+}
+
+.planet-head {
+    text-align: center;
+    padding: 0px 120px;
+    margin-bottom: 60px;
+}
+
+.planet-head h3 span {
+    color: #000000;
+}
+
+.planet-img img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.planet-text {
+    text-align: center;
+}
+
+.planet-text h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #111111;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+}
+
+.planet-text span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #111111;
+    font-family: "Inter", sans-serif;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.planet-inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+    column-gap: 20px;
+}
+
+.planet-text a {
+    font-size: .8rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #E95A08;
+    padding: 15px 80px;
+}
+
+/* planet lover area */
+.planet-lover-area {
+    padding-bottom: 100px;
+}
+
+.planet-lover-content {
+    display: flex;
+    column-gap: 60px;
+}
+
+.planet-lover-text h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000000;
+    font-family: "Noto Serif", serif;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+
+.planet-lover-text h3 span {
+    display: block;
+}
+
+.planet-lover-text ul {
+    padding-left: 30px;
+}
+
+.planet-lover-text ul li {
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #7b7c80;
+    margin-bottom: 18px;
+}
+
+.planet-lover-img {
+    position: relative;
+}
+
+.badge-img img {
+    height: 285px;
+    width: 285px;
+    position: absolute;
+    top: -130px;
+    right: -90px;
+}
+
+.img-shadow {
+    filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.25));
+}
